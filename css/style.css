@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+body {
+	background-image: url(../image/bg.jpg);
+	font-family: 'Indie Flower', cursive;
+	background-color: #fff;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	margin: 4rem auto;
+}
+
+header > .logo a {
+	font-size: 4rem;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	line-height: 1rem;
+}
+
+header > .logo span {
+	font-weight: 300;
+	font-size: 1rem;
+	color: rgba(255,255,255,0.65);
+	display: block;
+}
+
+.left_box {
+	width: 100px;
+	height: 100px;
+	margin: 40px;
+	color: pink;
+}
+
+.left_box > ul > li {
+	font-size: 2rem;
+
+}
+
+.left_box > ul > li:hover {
+	transform: scale(1.6);
+	transition: 0.4;
+}
+
+#carouselExampleSlidesOnly{
+	width: 400px;
+	height: 400px;
+} 
+
+
+
+
